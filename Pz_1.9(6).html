@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let isInRange = false
+        let numberOfMonth = prompt("Введіть номер місяця в діапазоні від 1 до 12:")
+        if(numberOfMonth < 1 || numberOfMonth > 12) 
+            alert('Число виходить за межі вазаного діапазону')
+        switch (numberOfMonth) {
+                case '1':
+                    alert("Місяць : Січень Пора року: зима")
+                    break;
+                case '2':
+                    alert("Місяць : Лютий Пора року: зима")
+                    break;
+                case '3':
+                    alert("Місяць : Березень Пора року: весна")
+                    break;
+                case '4':
+                    alert("Місяць : Квітень Пора року: весна")
+                    break;
+                case '5':
+                    alert("Місяць : Травень Пора року: весна")
+                    break;
+                case '6':
+                    alert("Місяць : Червень Пора року: літо")
+                    break;
+                case '7':
+                    alert("Місяць : Липень Пора року: літо")
+                    break;
+                case '8':
+                    alert("Місяць : Серпень Пора року: літо")
+                    break;
+                case '9':
+                    alert("Місяць : Вересень Пора року: осінь")
+                    break;
+                case '10':
+                    alert("Місяць : Жовтень Пора року: осінь")
+                    break;
+                case '11':
+                    alert("Місяць : Листопад Пора року: осінь")
+                    break;
+                case '12':
+                    alert("Місяць : Грудень Пора року: зима")
+                    break;
+            }
+    </script>
+</body>
+</html>
