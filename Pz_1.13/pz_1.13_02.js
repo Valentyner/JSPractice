@@ -3,8 +3,8 @@ let height = 12;
 
 
 function construktor(width, height) {
-    let slash = '#';
-    let dog = '@';
+    const slash = '#';
+    const dog = '@';
     let result = '';
     let row = true;
     let height1 = height;
