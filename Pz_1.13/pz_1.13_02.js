@@ -1,7 +1,6 @@
 let width = 12;
 let height = 12;
 
-
 function construktor(width, height) {
     const slash = '#';
     const dog = '@';
